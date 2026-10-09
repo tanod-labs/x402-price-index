@@ -41,6 +41,10 @@ Median listed price per call among other x402 sellers (x402 Bazaar and PayAI, ha
 | [Phishing URL check (list match)](https://tanod.dev/learn/phishing-url-check-api-prices.html) | 0.01 | 0.001 (batch 0.0002 per URL) |
 | [Phone number validation (offline)](https://tanod.dev/learn/phone-number-validation-api-prices.html) | 0.005 | 0.001 |
 
+## Findings
+
+- **GET endpoints draw payers more often than POST endpoints.** In the CDP Bazaar snapshot of 2026-10-10, 31.5% of GET endpoints (3,575 of 11,344) had 3 or more unique payers in 30 days, against 14.5% of POST endpoints (3,717 of 25,691). tanod.dev and onesource.io are excluded, because one seller's one-call sweeps would dominate. This is a correlation, not a cause. Details: [what AI agents pay for over x402](https://tanod.dev/learn/x402-bazaar-agent-demand-data.html).
+
 ## Files
 
 All files are in `data/`.
