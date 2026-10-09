@@ -32,6 +32,8 @@ Median listed price per call among other x402 sellers (x402 Bazaar and PayAI, ha
 | [IBAN and EU VAT validation (offline check digits)](https://tanod.dev/learn/iban-vat-validation-api-prices.html) | 0.005 | 0.001 |
 | [Web search](https://tanod.dev/learn/web-search-api-prices.html) | 0.01 | 0.012 (above the median) |
 | [Web page to Markdown](https://tanod.dev/learn/web-page-to-markdown-api-prices.html) | 0.005 | 0.005 static, 0.01 with JavaScript |
+| [DNS record lookup](https://tanod.dev/learn/dns-lookup-api-prices.html) | 0.005 | 0.004 DNS section alone; 0.01 with email auth and TLS (above the median) |
+| [Token spot price (Chainlink feeds)](https://tanod.dev/learn/token-price-api-prices.html) | 0.005 | 0.002 |
 
 ## Files
 
