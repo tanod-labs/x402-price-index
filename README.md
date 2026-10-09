@@ -14,6 +14,7 @@ Median listed price per call among other x402 sellers (x402 Bazaar and PayAI, ha
 | [Solana reads](https://tanod.dev/learn/solana-read-api-prices.html) | 0.005 | 0.002 |
 | [PDF tools](https://tanod.dev/learn/pdf-api-prices.html) | 0.010 | mostly 0.005 |
 | [OCR](https://tanod.dev/learn/ocr-api-prices.html) | 0.010 | 0.01 |
+| [Image processing](https://tanod.dev/learn/image-processing-api-prices.html) | 0.010 | mostly 0.002 |
 | [Speech to text](https://tanod.dev/learn/speech-to-text-api-prices.html) | 0.06 | 0.01 |
 | [QR codes](https://tanod.dev/learn/qr-barcode-api-prices.html) | 0.0026 | 0.001 |
 | [Company data](https://tanod.dev/learn/company-enrichment-api-prices.html) | 0.027 | 0.005 |
@@ -28,6 +29,7 @@ Median listed price per call among other x402 sellers (x402 Bazaar and PayAI, ha
 | [Public holidays, business days](https://tanod.dev/learn/public-holidays-api-prices.html) | 0.007 | 0.001 |
 | [IP address lookup (ASN, network; no geolocation)](https://tanod.dev/learn/ip-lookup-api-prices.html) | 0.005 | 0.001 |
 | [Email verification (DNS only)](https://tanod.dev/learn/email-verification-api-prices.html) | 0.0035 | 0.002 |
+| [IBAN and EU VAT validation (offline check digits)](https://tanod.dev/learn/iban-vat-validation-api-prices.html) | 0.005 | 0.001 |
 
 ## Files
 
