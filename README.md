@@ -38,6 +38,8 @@ Median listed price per call among other x402 sellers (x402 Bazaar and PayAI, ha
 | [Named entity extraction (English)](https://tanod.dev/learn/named-entity-extraction-api-prices.html) | 0.007 (8 offers) | 0.001 |
 | [Sentiment analysis (English, VADER)](https://tanod.dev/learn/sentiment-analysis-api-prices.html) | 0.005 | 0.001 |
 | [Language detection](https://tanod.dev/learn/language-detection-api-prices.html) | 0.003 | 0.001 |
+| [Phishing URL check (list match)](https://tanod.dev/learn/phishing-url-check-api-prices.html) | 0.01 | 0.001 (batch 0.0002 per URL) |
+| [Phone number validation (offline)](https://tanod.dev/learn/phone-number-validation-api-prices.html) | 0.005 | 0.001 |
 
 ## Files
 
