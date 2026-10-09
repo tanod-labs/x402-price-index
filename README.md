@@ -36,6 +36,8 @@ Median listed price per call among other x402 sellers (x402 Bazaar and PayAI, ha
 | [Token spot price (Chainlink feeds)](https://tanod.dev/learn/token-price-api-prices.html) | 0.005 | 0.002 |
 | [Text summarization (extractive)](https://tanod.dev/learn/text-summarization-api-prices.html) | 0.01 | 0.003 |
 | [Named entity extraction (English)](https://tanod.dev/learn/named-entity-extraction-api-prices.html) | 0.007 (8 offers) | 0.001 |
+| [Sentiment analysis (English, VADER)](https://tanod.dev/learn/sentiment-analysis-api-prices.html) | 0.005 | 0.001 |
+| [Language detection](https://tanod.dev/learn/language-detection-api-prices.html) | 0.003 | 0.001 |
 
 ## Files
 
