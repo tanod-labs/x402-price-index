@@ -14,3 +14,4 @@ today=$(date -u +%F)
 sed "s/^Last updated: .*/Last updated: $today/" README.md > README.md.tmp && mv README.md.tmp README.md
 git -c user.name=Tanod -c user.email=ops@tanod.dev commit -m "data: $(date -u +%F)" -- data README.md && git push
 python3 -I /root/venture/ops/hf_dataset_sync.py || echo "hf sync failed"
+python3 -I /root/venture/ops/hf_demand_sync.py || echo "hf demand sync failed"
