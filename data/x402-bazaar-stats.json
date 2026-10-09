@@ -1,0 +1,232 @@
+{
+ "dataset": "State of the x402 Bazaar",
+ "snapshot_date": "2026-10-09",
+ "source": "Coinbase CDP x402 Bazaar discovery list (public endpoint)",
+ "method_url": "https://tanod.dev/learn/state-of-x402-bazaar.html#method",
+ "license": "CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/), applies to Tanod's derived figures",
+ "citation": "Tanod, \"State of the x402 Bazaar\", https://tanod.dev/learn/state-of-x402-bazaar.html, snapshot 2026-10-09, CC BY 4.0.",
+ "history_csv": "https://tanod.dev/data/x402-bazaar-stats-history.csv",
+ "total": 34062,
+ "hosts": 2158,
+ "top_hosts": [
+  [
+   "market.datapackvibe.com",
+   11227
+  ],
+  [
+   "agentshelf.syntexa.ch",
+   1182
+  ],
+  [
+   "api.vextorium.com",
+   1014
+  ],
+  [
+   "intel.rallylive.ca",
+   892
+  ],
+  [
+   "api.magentlab.com",
+   844
+  ],
+  [
+   "dns.intel.rallylive.ca",
+   698
+  ],
+  [
+   "agent402.tools",
+   608
+  ],
+  [
+   "pay.edge-agents.ai",
+   576
+  ],
+  [
+   "twin.unykorn.org",
+   365
+  ],
+  [
+   "api.x402node.dev",
+   363
+  ]
+ ],
+ "top10_share_pct": 52.2,
+ "single_listing_hosts": 970,
+ "networks": [
+  [
+   "Base",
+   33768
+  ],
+  [
+   "Solana",
+   7745
+  ],
+  [
+   "Polygon",
+   4611
+  ],
+  [
+   "Arbitrum",
+   2631
+  ],
+  [
+   "Base Sepolia (testnet)",
+   2407
+  ],
+  [
+   "Optimism",
+   1715
+  ],
+  [
+   "eip155:5042",
+   1231
+  ],
+  [
+   "eip155:143",
+   918
+  ],
+  [
+   "Algorand",
+   812
+  ],
+  [
+   "eip155:4663",
+   743
+  ],
+  [
+   "Avalanche",
+   724
+  ],
+  [
+   "Sei",
+   661
+  ]
+ ],
+ "network_combinations": [
+  [
+   "Base",
+   23366
+  ],
+  [
+   "3 or more networks",
+   5072
+  ],
+  [
+   "Base + Solana",
+   2924
+  ],
+  [
+   "Base + Base Sepolia (testnet)",
+   2128
+  ],
+  [
+   "Base + Polygon",
+   185
+  ],
+  [
+   "Base Sepolia (testnet)",
+   170
+  ]
+ ],
+ "priced": 33887,
+ "price": {
+  "min": 1e-05,
+  "q1": 0.005,
+  "median": 0.01,
+  "q3": 0.01,
+  "p90": 0.05,
+  "max": 1000.0,
+  "under_001": 30.8,
+  "under_01": 94.8,
+  "over_1": 0.6,
+  "zero": 0
+ },
+ "price_buckets": [
+  [
+   "under $0.001",
+   9
+  ],
+  [
+   "$0.001 to $0.01",
+   10429
+  ],
+  [
+   "$0.01 to $0.10",
+   21673
+  ],
+  [
+   "$0.10 to $1",
+   1484
+  ],
+  [
+   "$1 or more",
+   292
+  ]
+ ],
+ "metadata_quality": {
+  "use_when": 1903,
+  "use_when_pct": 5.6,
+  "no_use_when_pct": 94.4,
+  "over500": 103,
+  "over500_pct": 0.3,
+  "empty": 91,
+  "empty_pct": 0.3,
+  "output_schema_present": 0,
+  "use_when_hosts": 91,
+  "use_when_top_host": [
+   "agentshelf.syntexa.ch",
+   1182
+  ]
+ },
+ "templated_bulk_hosts": {
+  "threshold": {
+   "min_listings": 100,
+   "score": 0.5
+  },
+  "hosts_scored": 20570,
+  "farm_hosts": 19,
+  "farm_hosts_pct": 0.1,
+  "index_listings": 95514,
+  "index_farm_listings": 25905,
+  "index_farm_pct": 27.1,
+  "bazaar_total": 34062,
+  "bazaar_farm_listings": 15212,
+  "bazaar_excluding_farms": 18850,
+  "bazaar_farm_pct": 44.7
+ },
+ "churn": [
+  {
+   "from": "2026-10-07",
+   "to": "2026-10-08",
+   "before": 35169,
+   "after": 33513,
+   "added": 804,
+   "removed": 2460,
+   "kept": 32709
+  },
+  {
+   "from": "2026-10-08",
+   "to": "2026-10-09",
+   "before": 33513,
+   "after": 34062,
+   "added": 1315,
+   "removed": 766,
+   "kept": 32747
+  }
+ ],
+ "snapshots": [
+  [
+   "2026-10-07",
+   35169
+  ],
+  [
+   "2026-10-08",
+   33513
+  ],
+  [
+   "2026-10-09",
+   34062
+  ]
+ ],
+ "snapshot_days": 3
+}
