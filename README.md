@@ -67,6 +67,15 @@ All files are in `data/`.
 
 CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/). Attribution: Tanod (tanod.dev).
 
+## Hugging Face
+
+The same files are a Hugging Face dataset, synced daily: [tanod/x402-category-prices](https://huggingface.co/datasets/tanod/x402-category-prices).
+
+```python
+from datasets import load_dataset
+prices = load_dataset("tanod/x402-category-prices", "category_prices", split="train")
+```
+
 ## Updates
 
 The data files are refreshed daily by `update.sh`, which copies the new files from Tanod's site data and commits only when they changed.
