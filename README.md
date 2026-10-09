@@ -34,6 +34,8 @@ Median listed price per call among other x402 sellers (x402 Bazaar and PayAI, ha
 | [Web page to Markdown](https://tanod.dev/learn/web-page-to-markdown-api-prices.html) | 0.005 | 0.005 static, 0.01 with JavaScript |
 | [DNS record lookup](https://tanod.dev/learn/dns-lookup-api-prices.html) | 0.005 | 0.004 DNS section alone; 0.01 with email auth and TLS (above the median) |
 | [Token spot price (Chainlink feeds)](https://tanod.dev/learn/token-price-api-prices.html) | 0.005 | 0.002 |
+| [Text summarization (extractive)](https://tanod.dev/learn/text-summarization-api-prices.html) | 0.01 | 0.003 |
+| [Named entity extraction (English)](https://tanod.dev/learn/named-entity-extraction-api-prices.html) | 0.007 (8 offers) | 0.001 |
 
 ## Files
 
