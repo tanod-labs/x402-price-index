@@ -55,6 +55,13 @@ All files are in `data/`.
 - `x402-bazaar-stats.json`: latest daily statistics of the Coinbase CDP x402 Bazaar discovery list. Keys: `dataset`, `snapshot_date`, `source`, `method_url`, `license`, `citation`, `history_csv`, `total` (listings), `hosts`, `top_hosts` ([host, listings]), `top10_share_pct`, `single_listing_hosts`, `networks` and `network_combinations` ([name, listings]), `priced` (listings with a price), `price` (min, q1, median, q3, p90, max and shares under 0.001, under 0.01, over 1, zero), `price_buckets`, `metadata_quality` (listings with a use-when hint, over 500 characters, empty, output schema present), `templated_bulk_hosts` (hosts with many near-identical listings and their share), `churn` (listings added, removed and kept between snapshot days), `snapshots` ([date, listings]), `snapshot_days`.
 - `x402-bazaar-stats-history.csv`: one row per day. Columns: `date`, `listings`, `hosts`, `median_price_usd`, `use_when_pct`, `over_500`, `empty`, `bulk_host_share_pct`, `added`, `removed`.
 
+## Related data
+
+- [x402 facilitator support](https://tanod.dev/learn/x402-facilitator-support.html): which payment schemes (exact, upto, batch-settlement) each public facilitator settles, per mainnet, read from their `/supported` endpoints.
+- [The x402 upto scheme](https://tanod.dev/learn/x402-upto-scheme.html): how usage-based charging works and who offers it in the Bazaar.
+- [State of the x402 Bazaar](https://tanod.dev/learn/state-of-x402-bazaar.html): listings, hosts, networks, payment schemes and paying wallets, daily.
+- [State of the MCP Registry](https://tanod.dev/learn/state-of-mcp-registry.html): daily counts for the official MCP Registry (servers, remote vs package, transports, growth per month).
+
 ## Method and limits
 
 - Prices are listed prices per call, as shown in each endpoint's x402 listing (first payment option). They are not prices that buyers paid.
