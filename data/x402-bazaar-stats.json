@@ -1,181 +1,231 @@
 {
  "dataset": "State of the x402 Bazaar",
- "snapshot_date": "2026-10-09",
+ "snapshot_date": "2026-10-27",
  "source": "Coinbase CDP x402 Bazaar discovery list (public endpoint)",
  "method_url": "https://tanod.dev/learn/state-of-x402-bazaar.html#method",
  "license": "CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/), applies to Tanod's derived figures",
- "citation": "Tanod, \"State of the x402 Bazaar\", https://tanod.dev/learn/state-of-x402-bazaar.html, snapshot 2026-10-09, CC BY 4.0.",
+ "citation": "Tanod, \"State of the x402 Bazaar\", https://tanod.dev/learn/state-of-x402-bazaar.html, snapshot 2026-10-27, CC BY 4.0.",
  "history_csv": "https://tanod.dev/data/x402-bazaar-stats-history.csv",
- "total": 34062,
- "hosts": 2158,
+ "total": 79456,
+ "hosts": 2760,
  "top_hosts": [
   [
    "market.datapackvibe.com",
-   11227
+   49807
   ],
   [
-   "agentshelf.syntexa.ch",
-   1182
-  ],
-  [
-   "api.vextorium.com",
-   1014
-  ],
-  [
-   "intel.rallylive.ca",
-   892
-  ],
-  [
-   "api.magentlab.com",
-   844
+   "saylorinnovations.com",
+   1786
   ],
   [
    "dns.intel.rallylive.ca",
-   698
+   687
   ],
   [
    "agent402.tools",
-   608
+   598
+  ],
+  [
+   "agent-data-tools.revmesh2074.workers.dev",
+   573
   ],
   [
    "pay.edge-agents.ai",
-   576
+   486
   ],
   [
-   "twin.unykorn.org",
-   365
+   "api.vextorium.com",
+   463
+  ],
+  [
+   "agents.driftflight.com",
+   442
   ],
   [
    "api.x402node.dev",
-   363
+   377
+  ],
+  [
+   "twin.unykorn.org",
+   375
   ]
  ],
- "top10_share_pct": 52.2,
- "single_listing_hosts": 970,
+ "top10_share_pct": 70.0,
+ "single_listing_hosts": 1158,
  "networks": [
   [
    "Base",
-   33768
+   79215
   ],
   [
    "Solana",
-   7745
+   12521
   ],
   [
    "Polygon",
-   4611
+   8619
   ],
   [
    "Arbitrum",
-   2631
+   6951
   ],
   [
-   "Base Sepolia (testnet)",
-   2407
-  ],
-  [
-   "Optimism",
-   1715
-  ],
-  [
-   "eip155:5042",
-   1231
+   "XRPL",
+   2955
   ],
   [
    "eip155:143",
-   918
+   2859
+  ],
+  [
+   "eip155:5042",
+   2539
+  ],
+  [
+   "eip155:480",
+   2355
+  ],
+  [
+   "Optimism",
+   2251
   ],
   [
    "Algorand",
-   812
+   1695
   ],
   [
-   "eip155:4663",
-   743
+   "Celo",
+   1687
   ],
   [
-   "Avalanche",
-   724
-  ],
-  [
-   "Sei",
-   661
+   "Base Sepolia (testnet)",
+   1465
   ]
  ],
  "network_combinations": [
   [
    "Base",
-   23366
+   64123
   ],
   [
    "3 or more networks",
-   5072
+   9333
   ],
   [
    "Base + Solana",
-   2924
+   3985
   ],
   [
    "Base + Base Sepolia (testnet)",
-   2128
+   1207
   ],
   [
    "Base + Polygon",
-   185
+   259
   ],
   [
    "Base Sepolia (testnet)",
-   170
+   143
   ]
  ],
- "priced": 33887,
+ "schemes": [
+  [
+   "exact",
+   79376,
+   2758,
+   62.7,
+   1.0,
+   11.0
+  ],
+  [
+   "upto",
+   968,
+   40,
+   58.7,
+   3.0,
+   60.7
+  ],
+  [
+   "batch-settlement",
+   131,
+   12,
+   56.5,
+   4,
+   72.5
+  ],
+  [
+   "settled-transfer",
+   18,
+   1,
+   100.0,
+   1.0,
+   5.6
+  ],
+  [
+   "exact_cosmos_authz",
+   18,
+   1,
+   100.0,
+   1.0,
+   11.1
+  ],
+  [
+   "eip3009",
+   14,
+   2,
+   92.9,
+   1.5,
+   35.7
+  ]
+ ],
+ "priced": 79306,
  "price": {
   "min": 1e-05,
-  "q1": 0.005,
+  "q1": 0.01,
   "median": 0.01,
   "q3": 0.01,
-  "p90": 0.05,
+  "p90": 0.02,
   "max": 1000.0,
-  "under_001": 30.8,
-  "under_01": 94.8,
-  "over_1": 0.6,
+  "under_001": 15.5,
+  "under_01": 96.9,
+  "over_1": 0.2,
   "zero": 0
  },
  "price_buckets": [
   [
    "under $0.001",
-   9
+   8
   ],
   [
    "$0.001 to $0.01",
-   10429
+   12322
   ],
   [
    "$0.01 to $0.10",
-   21673
+   64512
   ],
   [
    "$0.10 to $1",
-   1484
+   2127
   ],
   [
    "$1 or more",
-   292
+   337
   ]
  ],
  "metadata_quality": {
-  "use_when": 1903,
-  "use_when_pct": 5.6,
-  "no_use_when_pct": 94.4,
-  "over500": 103,
-  "over500_pct": 0.3,
-  "empty": 91,
-  "empty_pct": 0.3,
+  "use_when": 1680,
+  "use_when_pct": 2.1,
+  "no_use_when_pct": 97.9,
+  "over500": 141,
+  "over500_pct": 0.2,
+  "empty": 115,
+  "empty_pct": 0.1,
   "output_schema_present": 0,
-  "use_when_hosts": 91,
+  "use_when_hosts": 183,
   "use_when_top_host": [
    "agentshelf.syntexa.ch",
-   1182
+   130
   ]
  },
  "templated_bulk_hosts": {
@@ -183,16 +233,16 @@
    "min_listings": 100,
    "score": 0.5
   },
-  "hosts_scored": 20570,
-  "farm_hosts": 19,
+  "hosts_scored": 27910,
+  "farm_hosts": 30,
   "farm_hosts_pct": 0.1,
-  "index_listings": 95514,
-  "index_farm_listings": 25905,
-  "index_farm_pct": 27.1,
-  "bazaar_total": 34062,
-  "bazaar_farm_listings": 15212,
-  "bazaar_excluding_farms": 18850,
-  "bazaar_farm_pct": 44.7
+  "index_listings": 157362,
+  "index_farm_listings": 15223,
+  "index_farm_pct": 9.7,
+  "bazaar_total": 79456,
+  "bazaar_farm_listings": 2797,
+  "bazaar_excluding_farms": 76659,
+  "bazaar_farm_pct": 3.5
  },
  "churn": [
   {
@@ -212,6 +262,168 @@
    "added": 1315,
    "removed": 766,
    "kept": 32747
+  },
+  {
+   "from": "2026-10-09",
+   "to": "2026-10-10",
+   "before": 34062,
+   "after": 33717,
+   "added": 1767,
+   "removed": 2112,
+   "kept": 31950
+  },
+  {
+   "from": "2026-10-10",
+   "to": "2026-10-11",
+   "before": 33717,
+   "after": 32056,
+   "added": 785,
+   "removed": 2446,
+   "kept": 31271
+  },
+  {
+   "from": "2026-10-11",
+   "to": "2026-10-12",
+   "before": 32056,
+   "after": 32342,
+   "added": 666,
+   "removed": 380,
+   "kept": 31676
+  },
+  {
+   "from": "2026-10-12",
+   "to": "2026-10-13",
+   "before": 32342,
+   "after": 32714,
+   "added": 919,
+   "removed": 547,
+   "kept": 31795
+  },
+  {
+   "from": "2026-10-13",
+   "to": "2026-10-14",
+   "before": 32714,
+   "after": 34412,
+   "added": 3884,
+   "removed": 2186,
+   "kept": 30528
+  },
+  {
+   "from": "2026-10-14",
+   "to": "2026-10-15",
+   "before": 34412,
+   "after": 37320,
+   "added": 3378,
+   "removed": 470,
+   "kept": 33942
+  },
+  {
+   "from": "2026-10-15",
+   "to": "2026-10-16",
+   "before": 37320,
+   "after": 40769,
+   "added": 3763,
+   "removed": 314,
+   "kept": 37006
+  },
+  {
+   "from": "2026-10-16",
+   "to": "2026-10-17",
+   "before": 40769,
+   "after": 45166,
+   "added": 4537,
+   "removed": 140,
+   "kept": 40629
+  },
+  {
+   "from": "2026-10-17",
+   "to": "2026-10-18",
+   "before": 45166,
+   "after": 46352,
+   "added": 3012,
+   "removed": 1826,
+   "kept": 43340
+  },
+  {
+   "from": "2026-10-18",
+   "to": "2026-10-19",
+   "before": 46352,
+   "after": 25790,
+   "added": 450,
+   "removed": 21012,
+   "kept": 25340
+  },
+  {
+   "from": "2026-10-19",
+   "to": "2026-10-20",
+   "before": 25790,
+   "after": 25975,
+   "added": 849,
+   "removed": 664,
+   "kept": 25126
+  },
+  {
+   "from": "2026-10-20",
+   "to": "2026-10-21",
+   "before": 25975,
+   "after": 28080,
+   "added": 2249,
+   "removed": 144,
+   "kept": 25831
+  },
+  {
+   "from": "2026-10-21",
+   "to": "2026-10-22",
+   "before": 28080,
+   "after": 30257,
+   "added": 2716,
+   "removed": 539,
+   "kept": 27541
+  },
+  {
+   "from": "2026-10-22",
+   "to": "2026-10-23",
+   "before": 30257,
+   "after": 34862,
+   "added": 5904,
+   "removed": 1299,
+   "kept": 28958
+  },
+  {
+   "from": "2026-10-23",
+   "to": "2026-10-24",
+   "before": 34862,
+   "after": 37946,
+   "added": 4425,
+   "removed": 1341,
+   "kept": 33521
+  },
+  {
+   "from": "2026-10-24",
+   "to": "2026-10-25",
+   "before": 37946,
+   "after": 49098,
+   "added": 11309,
+   "removed": 157,
+   "kept": 37789
+  },
+  {
+   "from": "2026-10-25",
+   "to": "2026-10-26",
+   "before": 49098,
+   "after": 65876,
+   "added": 17463,
+   "removed": 685,
+   "kept": 48413
+  },
+  {
+   "from": "2026-10-26",
+   "to": "2026-10-27",
+   "before": 65876,
+   "after": 79456,
+   "added": 13851,
+   "removed": 271,
+   "kept": 65605
   }
  ],
  "snapshots": [
@@ -226,7 +438,79 @@
   [
    "2026-10-09",
    34062
+  ],
+  [
+   "2026-10-10",
+   33717
+  ],
+  [
+   "2026-10-11",
+   32056
+  ],
+  [
+   "2026-10-12",
+   32342
+  ],
+  [
+   "2026-10-13",
+   32714
+  ],
+  [
+   "2026-10-14",
+   34412
+  ],
+  [
+   "2026-10-15",
+   37320
+  ],
+  [
+   "2026-10-16",
+   40769
+  ],
+  [
+   "2026-10-17",
+   45166
+  ],
+  [
+   "2026-10-18",
+   46352
+  ],
+  [
+   "2026-10-19",
+   25790
+  ],
+  [
+   "2026-10-20",
+   25975
+  ],
+  [
+   "2026-10-21",
+   28080
+  ],
+  [
+   "2026-10-22",
+   30257
+  ],
+  [
+   "2026-10-23",
+   34862
+  ],
+  [
+   "2026-10-24",
+   37946
+  ],
+  [
+   "2026-10-25",
+   49098
+  ],
+  [
+   "2026-10-26",
+   65876
+  ],
+  [
+   "2026-10-27",
+   79456
   ]
  ],
- "snapshot_days": 3
+ "snapshot_days": 21
 }
